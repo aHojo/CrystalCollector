@@ -1,0 +1,41 @@
+body{
+   
+}
+
+div.rel-pos{
+    position: relative;
+    margin: 10px;
+
+}
+div.rel-pos-bod{
+    position: relative;
+}
+
+
+#score-match{
+    border: 2px solid red;
+    position: absolute;
+    top: -15px;
+    left: 30%;
+}
+#your-total{
+    border: 2px solid red;
+    position: absolute;
+    top: -15px;
+    left: 35%;
+}
+
+#crystals-div{
+    border: 2px solid red;
+    position: absolute;
+    top: -15px;
+    left: 38%;
+}
+
+.alignment{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
