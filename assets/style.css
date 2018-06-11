@@ -1,35 +1,78 @@
 body{
-   
+   background-color: #4b367c;
+   color: white;
+   font-family: 'Monoton', cursive;
 }
 
+#inst-text{
+    font-family: 'Black Ops One', cursive !important;   
+}
+
+.card{
+    background-color: #17141f;
+    box-shadow: 2px 2px 5px white;
+}
+.jumbotron {
+    background-color: #17141f;
+    color: white;
+    box-shadow: 2px 2px 5px white;
+}
+
+#reset{
+    box-shadow: 2px 2px 5px white;
+}
 div.rel-pos{
     position: relative;
     margin: 10px;
 
 }
+div.rel-pos2{
+    position: relative;
+    margin: 20px auto;
+
+}
 div.rel-pos-bod{
     position: relative;
+    height: 150px;
+}
+
+.center-this {
+    margin: 0 auto !important;
 }
 
 
 #score-match{
-    border: 2px solid red;
-    position: absolute;
-    top: -15px;
-    left: 30%;
-}
-#your-total{
-    border: 2px solid red;
+    border: 2px solid #fbd654;
     position: absolute;
     top: -15px;
     left: 35%;
+    border-radius: 1rem;
+    background-color: #f78312;
+    font-weight: bold;
+    padding: 10px;
+}
+#your-total{
+    border: 2px solid #fbd654;
+    border-radius: 1rem;
+    position: absolute;
+    top: -15px;
+    left: 39%;
+    border-radius: 1rem;
+    background-color: #f78312;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 10px;
 }
 
 #crystals-div{
-    border: 2px solid red;
+    border: 2px solid #fbd654;
     position: absolute;
     top: -15px;
-    left: 38%;
+    left: 43%;
+    background-color: #f78312;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 10px;
 }
 
 .alignment{
@@ -38,4 +81,24 @@ div.rel-pos-bod{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
+}
+
+.crystal {
+    margin: 15px;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.crystal:hover {
+    cursor: pointer;
+    margin-top: 2px;
+
+}
+
+.table {
+    border: 1px solid white;
+    background-color: #17141f;
+    color: white;
+    box-shadow: 2px 2px 5px white;
+    font-weight: bold;
 }
